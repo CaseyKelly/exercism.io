@@ -1,4 +1,4 @@
-export const colorCode = (color: string) => {
+export const colorCode = (color: string): number => {
   const colorMap: { [color: string]: number } = {
     black: 0,
     brown: 1,
